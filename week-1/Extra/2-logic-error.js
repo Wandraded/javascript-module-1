@@ -5,12 +5,12 @@ function trimWord(word) {
 }
 
 function getWordLength(word) {
-  return "word".length()
+  return word.lengths
 }
 
 function multiply(a, b, c) {
-  a * b * c;
-  return;
+ let result = a * b * c;
+  return result;
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
