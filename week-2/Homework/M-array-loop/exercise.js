@@ -13,3 +13,13 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+function startWithT(arr) {
+  for(let i=0; i<arr.length-1; i++){
+    if(arr[i].startsWith('T')){
+      console.log(arr[i]);
+    }
+  }
+}
+
+startWithT(daysOfWeek);

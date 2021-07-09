@@ -2,11 +2,10 @@
   Array properites
   ----------------
   Complete the function to test if an array is empty (has no values in it)
-
 */
 
 function isEmpty(arr) {
-  return; // complete this statement
+  return arr.length===0; // complete this statement
 }
 
 /* 
